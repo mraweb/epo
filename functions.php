@@ -1061,7 +1061,7 @@ $labels = array(
 // feed
 function add_cpt_to_feed( $qv ) {
   if ( isset($qv['feed']) && !isset($qv['post_type']) )
-    $qv['post_type'] = array('post', 'sao-paulo', 'rio-de-janeiro', 'amazonas','bahia','minas-gerais','maranhao','distrito-federal','ceara','pernambuco','rondonia','espirito-santo');
+    $qv['post_type'] = array('post', 'rio-de-janeiro', 'sao-paulo', 'amazonas','bahia','minas-gerais','maranhao','distrito-federal','ceara','pernambuco','rondonia','espirito-santo');
   return $qv;
 }
 add_filter( 'request', 'add_cpt_to_feed' );
