@@ -1,0 +1,1231 @@
+/*
+Theme Name: Emprego pra Ontem
+Theme URI: http://wwww.empregopraontem.com.br
+Author: HTMLcomCSS
+Author URI: http://www.htmlcomcss.com.br
+Version: 1.0
+*/
+*{
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+.dsp-none{ display: none;}
+h1, h2, h3, h4{
+	font-style: normal;
+	font-weight: normal;
+	font-family: 'planet', sans-serif;
+}
+a, h1, h2, h3, h4, article, aside, dialog, figure,
+footer, header, hgroup, nav, section, blockquote, label{ display: block;}
+a{ text-decoration: none; color: #919191;}
+a:hover, a:focus{ background-position:left bottom;}
+a.ativo{ background-position:left bottom;}
+a.link{ display:inline;}
+a:hover.link, a:focus.link{ text-decoration:underline; }
+.hidetxt{ text-indent:-99999px; overflow:hidden;}
+p{ padding-bottom: 20px; line-height: 18px;}
+img{ border: none;}
+.left{ float: left;}
+.right{ float: right;}
+.img-left{ float: left; margin: 0 15px 10px 0;}
+body{
+	color: #2c3448;
+	font-size: 12px;
+	font-family: Verdana, Geneva, sans-serif;
+	background-color: #FFF;
+}
+@font-face {
+    font-family: 'planet';
+    src: url('fonts/plane___-webfont.eot');
+    src: url('fonts/plane___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/plane___-webfont.woff') format('woff'),
+         url('fonts/plane___-webfont.ttf') format('truetype'),
+         url('fonts/plane___-webfont.svg#planet') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+iframe{ border: none;}
+.twitter-timeline{ height: 260px; margin-bottom: 15px;}
+.box { float: left; }
+.root { max-width: 1024px; margin: 0 auto; overflow: hidden; }
+#Header { width: 100%; display: table; }
+#Logo { width: 50%; }
+#midias-top { width: 50%; }
+#redes-sociais-top { width: 100%; }
+#menu { width: 100%; }
+#content { width: 100%; }
+#box-video { width: 100%; padding-bottom: 1%; }
+#texto-video { width: 40%; }
+#video { width: 60%; }
+#box10 { width: 25%; }
+#box11 { width: 25%; }
+#box12 { width: 25%; }
+#box13 { width: 25%; }
+#adsense { margin: 0 0 20px 100px; }
+#box14 { width: 25%; }
+#box15 { width: 25%; }
+#box16 { width: 25%; }
+#box17 { width: 25%; }
+#box18 { width: 25%; }
+#box19 { width: 25%; }
+#box20 { width: 25%; }
+#box21 { width: 25%; }
+.estados { width: 25%; }
+#footer { width: 100%; }
+#footer-left { width: 60%; }
+#footer-right { width: 40%; }
+#twitter { width: 100%; margin-top: 100px; }
+#logo-footer { width: 24.333333%; }
+#area-restrita { width: 33.33333333333333%; }
+#curriculo { width: 33.33333333333333%; }
+#midias-footer { width: 100%; }
+#nav-footer { width: 100%; }
+#cont-left { width: 70%; }
+#cont-right { width: 30%;}
+
+/* AJUSTE WP */
+#cont-left header{ height: 60px; padding-bottom: 0;}
+.gard_async_mode{ margin-bottom: 20px;}
+.ads-top{
+	width: 100%;
+	float: left;
+	margin-top: 20px;
+}
+.ads-top1{
+	float: left;
+	margin: 20px 0 0 140px;
+}
+
+/*** HOME ***/
+.bg-home{ background: #FFF url(img/bghome.jpg) center top no-repeat;}
+header{ padding-bottom: 40px;}
+header h1{
+	width: 302px;
+	height: 126px;
+	padding-top: 10px;
+}
+header h1 a{
+	width: 302px;
+	height: 126px;
+	background-image: url(img/emprego-pra-ontem.gif);
+}
+.midias{
+	width: 465px;
+	float: right;
+	padding-top: 12px;
+}
+.midias li{ float: left;}
+.midias li a{
+	width: 116px;
+	height: 23px;
+	background: url(img/midias.gif) 0 0 no-repeat;
+}
+.midias li a[title="Facebook"]{ background-position: 0 0;}
+.midias li a[title="Twitter"]{ background-position: -117px 0;}
+.midias li a[title="Google +"]{ background-position: -234px 0;}
+.midias li a[title="Linkedin"]{ background-position: -352px 0;}
+.midias li a:hover, .midias li a:focus{ opacity: 0.6;}
+#navMenu{
+	width: 485px;
+	float: right;
+	padding-top: 22px;
+	position: relative;
+}
+#navMenu li{ float: left;}
+#navMenu li a{
+	font-family: 'planet', sans-serif;
+	font-size: 15px;
+	padding: 3px 15px 3px 15px;
+	border: 1px solid transparent;
+}
+#navMenu li a:hover, #navMenu li a:focus, #navMenu li a.ativo, #navMenu li a.current{
+	color: #6f8ccd;
+	border-radius: 15px;
+	border: 1px solid #6f8ccd;
+	padding: 3px 15px 3px 15px;
+}
+#navMenu li a[title="Vagas"]{
+	background: url(img/seta.jpg) 60px 11px no-repeat; }
+#navMenu li a:hover[title="Vagas"],
+#navMenu li a:focus[title="Vagas"],
+#navMenu li a.current[title="Vagas"]{
+	background: url(img/setahover.jpg) 60px 11px no-repeat;}
+header #menu-empresa{
+	width: 60%; /* 305px */
+	border-radius: 10px;
+	border: 1px solid #6f8ccd;
+	background-color: #FFF;
+	position: absolute;
+	left: 80px;
+	top: 49px;
+	z-index: 99999;
+	padding: 12px 0 0 0;
+}
+header #menu-empresa li{
+	background: url(img/ball.jpg) 10px 6px no-repeat;
+	padding: 0 0 7px 20px;}
+header #menu-empresa li a{
+	width: inherit;
+	height: inherit;
+	border: none;
+	font-size: 12px;
+	font-family: 'Verdana', sans-serif;
+	padding: 0 5px;
+}
+header #menu-empresa li a:hover, header #menu-empresa li a:focus{ border: none; padding: 0 5px;}
+#texto-video{
+	padding-bottom: 25px;
+	font-family: 'planet', sans-serif;
+	background: url(img/seta.gif) 220px 0 no-repeat;
+}
+.texto-video{
+	font-size: 2.917em;
+	color: #3b5998;
+	line-height: 43px;
+	padding: 35px 0 15px 0;
+	text-align: center;
+	background: url(img/div-video.gif) center bottom no-repeat;
+}
+.texto-video span{ font-size: 24px;}
+.texto-estado{
+	font-size: 35px;
+	line-height: 43px;
+	padding: 10px 45px 15px 54px;
+	text-align: center;
+}
+
+/* Menu responsivo */
+.js .nav-collapse{
+	width: 100%;
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  zoom: 1;
+  clear: both;
+}
+.nav-collapse.opened{ width: 100%; max-height: 9999px;}
+.nav-toggle {
+	width: 100%;
+	height: 50px;
+	float: left;
+  	-webkit-tap-highlight-color: rgba(0,0,0,0);
+  	-webkit-touch-callout: none;
+  	-webkit-user-select: none;
+  	-moz-user-select: none;
+  	-ms-user-select: none;
+  	-o-user-select: none;
+  	user-select: none;
+  	text-indent: -99999px;
+  	overflow: hidden;
+  	display: block;
+  	background: #9c9c9c url(img/btmobile.jpg) 15px 6px no-repeat;
+}
+.nav-toggle:hover{ background-position: 15px 6px;}
+@media screen and (min-width: 643px) {
+	.js .nav-collapse{ position: relative;}
+	.js .nav-collapse.closed{ max-width: 100%; height: 200px;}
+	.nav-toggle { display: none;}
+}
+.video-container{
+	position: relative;
+	padding-bottom: 47.25%;
+	padding-top: 60px;
+	overflow: hidden;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed{
+	position: absolute; 
+	top: 0; 
+	left: 0;
+	width: 100%; 
+	height: 100%;
+}
+
+/* ADSENSE */
+.responsivo { width: 320px; height: 50px; text-align: center; }
+@media(min-width: 500px) { 
+	.responsivo { width: 468px; height: 60px; text-align: center; } }
+@media(min-width: 767px) { 
+	.responsivo { width: 728px; height: 90px; text-align: center; } }
+.alinha-adsense{
+	width: 728px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 35px;
+}
+.box-{ width: 250px; height: 185px;}
+.box h2{
+	width: 156px;
+	height: 156px;
+	margin: 0 auto;
+}
+.box h2 a{
+	height: 92px;
+	font-size: 16px;
+	text-align: center;
+}
+.box h2 a span{ display: block; padding-top: 92px;}
+.box h2 a:hover, .box h2 a:focus{ background-position: center -92px;}
+.box h2 .rj{ background: url(img/rj.gif) center 0 no-repeat;}
+.box h2 .sp{ background: url(img/sp.gif) center 0 no-repeat;}
+.box h2 .mg{ background: url(img/mg.gif) center 0 no-repeat;}
+.box h2 .am{ background: url(img/am.gif) center 0 no-repeat;}
+.box h2 .ma{ background: url(img/ma.gif) center 0 no-repeat;}
+.box h2 .df{ background: url(img/df.gif) center 0 no-repeat;}
+.box h2 .pe{ background: url(img/pe.gif) center 0 no-repeat;}
+.box h2 .ce{ background: url(img/ce.gif) center 0 no-repeat;}
+.box h2 .ba{ background: url(img/ba.gif) center 0 no-repeat;}
+.box h2 .ro{ background: url(img/ro.gif) center 0 no-repeat;}
+.box h2 .es{ background: url(img/es.gif) center 0 no-repeat;}
+
+/* QUEM SOMOS */
+header .logo{
+	width: 302px;
+	height: 126px;
+	padding: 10px 0 0 0;
+}
+header .logo a{ width: 302px; height: 126px;}
+#content h1{
+	line-height: 37px;
+	padding: 0 0 20px 40px;
+	font-size: 39px;
+	background: url(img/relogio.gif) 0 0 no-repeat;
+}
+#cont-left h1 a{ display: inline; color: #2c3448; cursor: default;}
+#post-4 .adsbygoogle{ margin: 0 15px 15px 0;}
+#cont-right .titulo-aside{
+	font-size: 24px;
+	padding-bottom: 15px;
+	text-align: center;
+	font-family: 'planet', sans-serif;
+}
+#cont-right .titulo-aside span{ color: #6f8ccd;}
+#cont-right .menu{ width: 266px; margin-top: 20px;}
+#cont-right .menu li{
+	width: 205px;
+	float: right;
+	padding-bottom: 10px;
+}
+#cont-right .menu a{
+	width: 184px;
+	height: 49px;
+	border: 1px solid #000;
+	text-align: center;
+	color: #252e47;
+	font-size: 16px;
+	font-family: 'planet', sans-serif;
+	padding-top: 3px;
+}
+#cont-right .menu a:hover, #cont-right .menu a:focus{ background-color: #bdd1ff;}
+.widgettitle{ display: none;}
+
+/* VAGAS */
+#content .size{ font-size: 26px;}
+#content .box-vagas{ float: left;}
+#content .box-vagas li{
+	width: 210px;
+	height: 223px;
+	float: left;
+	padding: 5px 15px 5px 5px;
+	margin: 0 5px 5px 0;
+	border: 1px solid #b2b2b2;
+	cursor: pointer;
+	position: relative;
+}
+#content .box-vagas li h2{
+	width: 210px;
+	height: auto;
+	margin: inherit;
+}
+#content .box-vagas li h2 a{
+	height: auto;
+	text-align: left;
+	font-size: 16px;
+	color: #2c3448;
+}
+#content .box-vagas li .data{
+	width: 220px;
+	color: #6f8ccd;
+	font-size: 13px;
+	font-family: 'planet', sans-serif;
+	padding-bottom: 10px;
+	margin-bottom: 7px;
+	background: url(img/pontos.jpg) center bottom repeat-x;
+}
+#content .box-vagas li p{ padding-bottom: 10px;}
+#content .box-vagas li .bt-ver{
+	width: 73px;
+	height: 22px;
+	display: block;
+	border: 1px solid #b2b2b2;
+	text-align: center;
+	font-size: 14px;
+	color: #FFF;
+	padding: 2px 0 0 0;
+	background-color: #2c3448;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+#content .box-vagas li:hover .bt-ver, #content .box-vagas li:focus .bt-ver{
+	background-color: #6f8ccd;
+}
+.wp-pagenavi{
+	width: 96%;
+	height: 26px;
+	float: left;
+	margin: 25px 0;
+	background: url(img/pontos-pag.png) center top repeat-x;
+}
+.wp-pagenavi span{
+	width: 22px;
+	height: 20px;
+	float: left;
+	display: block;
+	text-align: center;
+	padding-top: 4px;
+	background-color: #2c3448;
+	color: #FFF;
+	font-size: 14px;
+	font-family: 'planet', sans-serif;
+	border: 1px solid #b2b2b2;
+	margin-right: 5px;
+}
+.wp-pagenavi a{
+	width: 22px;
+	height: 20px;
+	float: left;
+	display: block;
+	text-align: center;
+	padding-top: 4px;
+	color: #2c3448;
+	font-size: 14px;
+	font-family: 'planet', sans-serif;
+	border: 1px solid #b2b2b2;
+	margin-right: 5px;
+	background-color: #FFF;
+}
+.wp-pagenavi a:hover,
+.wp-pagenavi a:focus,
+.wp-pagenavi a.ativo{ background-color: #2c3448; color: #FFF;}
+#cont-right .search{
+	float: right;
+	padding-bottom: 15px;
+	margin-right: 20px;
+}
+#cont-right .search .bg-label{
+	width: 266px;
+	height: 26px;
+	margin: 25px 0 7px 0;
+	background: url(img/pontos-pag.png) 0 0 repeat-x;
+}
+#cont-right .search label{
+	width: 77px;
+	height: 34px;
+	font-size: 22px;
+	font-family: 'planet', sans-serif;
+	text-transform: uppercase;
+	background: url(img/bglabel.jpg) 0 0 no-repeat;
+}
+input#uwpqsf_id_key{
+	width: 210px;
+	height: 34px;
+	float: left;
+	background-color: #FFF;
+	border: 1px solid #b2b2b2;
+	outline: none;
+	font-size: 16px;
+	padding: 0 5px;
+	font-family: 'planet', sans-serif;
+}
+#searchsubmit{
+	width: 38px;
+	height: 36px;
+	float: left;
+}
+aside ul{ width: 100%; float: left;}
+#face{
+	height: 300px;
+	display: block;
+	float: right;
+	clear: both;
+	margin-right: 20px;
+}
+.gard_advanced_mode{ width: 36%; float: left;}
+.box-side{
+	width: 266px;
+	float: left;
+	display: block;
+	clear: both;
+}
+.box-cat{
+	width: 266px;
+	float: right;
+	padding-top: 15px;
+	margin: 25px 0;
+	margin-right: 20px;
+	background: url(img/divaside.jpg) left top no-repeat;
+}
+#wysija-3, #wysija-4, #wysija-5, #wysija-6, #wysija-7,
+#wysija-8, #wysija-9, #wysija-10, #wysija-11{
+	width: 266px;
+	float: right;
+	margin: 25px 0;
+	margin-right: 20px;
+	background: url(img/divaside.jpg) left top no-repeat;
+}
+.box-cat div{
+	width: 100%;
+	height: 40px;
+	background: url(img/pontos-pag.png) center top repeat-x;
+}
+.box-cat div h3{
+	width: auto;
+	height: 26px;
+	display: table-cell;
+	padding-right: 10px;
+	font-size: 22px;
+	text-transform: uppercase;
+	background-color: #FFF;
+}
+.box-cat li{
+	padding: 0 0 7px 20px;
+	background: url(img/setaaside.jpg) left 5px no-repeat;
+}
+.box-cat li a{ font-size: 14px; display: inline;}
+.box-cat li a:hover, .box-cat li a:focus{ color: #2c3448;}
+.notice-msg{
+	width: 410px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -225px;
+	margin-top: -100px;
+	float: left;
+	padding: 20px;
+	border-radius: 7px;
+	border: 4px solid #2465ff;
+	background-color: #6e8dce;
+}
+.notice-msg ul li{
+	font-size: 18px;
+	text-align: center;
+	color: #2c3447;
+	padding-bottom: 15px;
+	font-family: 'planet', sans-serif;
+}
+.notice-msg .fechar-box{
+	width: 115px;
+	height: 20px;
+	display: block;
+	margin: 0 auto;
+	clear: both;
+	color: #FFF;
+	text-align: center;
+	padding-top: 5px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: 'planet', sans-serif;
+	background-color: #2b3346;
+}
+#content .wysija-paragraph{ padding: 0;}
+#content .wysija-paragraph label{ display: none;}
+#content .widget_wysija input{
+	width: 254px;
+	height: 34px;
+	border-right: 1px solid #b2b2b2;
+	border-left: 1px solid #b2b2b2;
+	border-top: 1px solid #b2b2b2;
+	border-bottom: 1px solid #b2b2b2;
+	background-color: #FFF;
+	padding: 0 5px;
+	font-size: 20px;
+	color: #829cd4;
+	outline: none;
+}
+#content .widget_wysija h2{
+	text-align: left;
+	height: inherit;
+	font-size: 22px;
+	text-transform: uppercase;
+	margin: 20px 0 7px 0;
+}
+.wysija-input::-webkit-input-placeholder{ 
+	color:#829cd4;
+	font-size: 20px;
+	font-family: 'planet', sans-serif;
+}
+.wysija-input::-moz-placeholder{ 
+	color:#829cd4; 
+	font-size: 20px;
+	font-family: 'planet', sans-serif;
+}​
+#cont-right a[title="Gerador de Currículo"]{
+	width: 236px;
+	height: 74px;
+	margin: 0 auto;
+}
+#cont-right a[title="Gerador de Currículo"]:hover,
+#cont-right a[title="Gerador de Currículo"]:focus{ opacity: 0.7;}
+
+/* POST */
+.redes-sociais{
+	width: 100%;
+	height: 40px;
+	float: left;
+}
+#content .redes-sociais .fb_iframe_widget{ padding-right: 30px;}
+.redes-sociais div{ float: left;}
+.adsense-post{
+	width: 39%;
+	height: 280px;
+	float: left;
+}
+.cont-post{
+	width: 97%;
+	float: left;
+	padding-right: 3%;
+	font-size: 18px;
+	font-family: 'planet', sans-serif;
+}
+.cont-post p{
+	width: 60%;
+	float: right;
+	line-height: 24px;
+}
+#cont-left > div.cont-post > div {
+    width: 250px;
+    float: left;
+    margin-right: 15px;
+}
+.cont-post ul{ padding-bottom: 25px;}
+.cont-post ul li{
+	line-height: 20px;
+	padding: 0 0 5px 15px;
+	background: url(img/estrela.png) 0 3px no-repeat;
+}
+.cont-post a{ color: #2c3448; display: inline;}
+#content #post-32 h1{ width: 100%;}
+.tit-vagas{
+	width: 96%;
+	height: 50px;
+	float: left;
+	background: url(img/pontos-pag.png) center top repeat-x;
+}
+#content .tit-vagas h2{
+	width: auto;
+	float: left;
+	padding-right: 10px;
+	font-size: 26px;
+	line-height: 25px;
+	background-color: #FFF;
+}
+#content .tit-vagas h2 span{ color: #6f8ccd;}
+.widget_FacebookLikeBox{ margin-top: 25px;}
+.altura-post{
+	height: 100px;
+	overflow: hidden;
+}
+
+/* ANUNCIAR VAGA */
+#content #formID h2{
+	width: inherit;
+	height: 40px;
+	text-align: center;
+}
+#formID ul{ padding-bottom: 100px;}
+#formID ul li{
+	width: 100%;
+	float: left;
+	padding-bottom: 10px;
+}
+#formID ul li.mrg-bottom{ margin-bottom: 40px;}
+#formID ul li label{
+	width: 32.84%;
+	float: left;
+	text-align: right;
+	padding-right: 1%;
+	font-size: 16px;
+}
+#formID ul li input,
+#formID ul li select,
+#formID ul li textarea,
+#formCurriculo ul li input,
+#formCurriculo ul li select,
+#formCurriculo ul li textarea{
+	width: 45.49%;
+	height: 25px;
+	float: left;
+	border-radius: 10px;
+	border: 1px solid #243148;
+	outline: none;
+	padding: 0 1%;
+	font-size: 14px;
+	font-family: 'planet', sans-serif;
+}
+#formID ul li textarea{ height: 80px; padding-top: 3px;}
+#formID ul li select{ width: 47.49%;}
+#formID ul li .bt-cadastrar{
+	width: 180px;
+	height: 30px;
+	float: right;
+	border: none;
+	border-radius: 0;
+	padding: 0 140px 0 0;
+}
+#formCurriculo ul{
+	width: 100%;
+	float: left;
+	padding-bottom: 20px;
+}
+#formCurriculo ul li{
+	width: 50%;
+	float: left;
+	padding-bottom: 10px;
+}
+#formCurriculo .cem{ width: 100%;}
+#formCurriculo ul li label{
+	width: 26%;
+	float: left;
+	text-align: right;
+	padding-right: 1%;
+	font-size: 14px;
+}
+#formCurriculo ul li input{ width: 65%;}
+#formCurriculo h2{
+	width: 100%;
+	height: inherit;
+	text-align: center;
+	padding-bottom: 20px;
+}
+#formCurriculo #cargo,
+#formCurriculo #inst{ width: 68%;}
+#formCurriculo .bt-pdf{
+	width: 180px;
+	height: 30px;
+	float: right;
+	border: none;
+	border-radius: 0;
+	padding: 0 35px 0 0;
+}
+#formCurriculo .lb-menor{ width: 35%;}
+#formCurriculo #conclusao{ width: 56%;}
+#formCurriculo #graduacao{ width: 67%;}
+#formCurriculo .txt-h2{ text-align: center; margin-top: -20px;}
+#formCurriculo .lb-menor1{ width: 13%;}
+#formCurriculo #curso1,
+#formCurriculo #curso2,
+#formCurriculo #curso3,
+#formCurriculo #empresa1,
+#formCurriculo #empresa2,
+#formCurriculo #empresa3{ width: 81%;}
+#formCurriculo h3{ padding-bottom: 15px;}
+#formCurriculo ul li textarea{
+	width: 95%; 
+	height: 115px; 
+	padding-top: 3px;
+}
+#formCurriculo .lb-cem{ 
+	width: 100%; 
+	padding: 2px 0 5px 0;
+	text-align: left;
+}
+.ezAdsWidget{ float: left;}
+#ezadswidget-10 label{ display: none;}
+
+/* TABLET */
+@media screen and (min-width: 643px) and (max-width: 768px) { 
+	#midias-top .midias {
+		width: 234px;
+		height: 50px;
+		margin-top: 0;}
+	
+	#midias-top .midias li{ float: left; padding-bottom: 7px;}
+	#navMenu{
+		width: 387px;
+		height: 25px;
+		float: right;
+		position: relative;
+	}
+	#navMenu li{ float: left;}
+	#navMenu li a{
+		font-family: 'planet', sans-serif;
+		font-size: 13px;
+		padding: 2px 10px 2px 10px;
+		border: 1px solid transparent;
+	}
+	#navMenu li a:hover, #navMenu li a:focus, #navMenu li a.ativo, #navMenu li a.current{
+		color: #6f8ccd;
+		border-radius: 13px;
+		border: 1px solid #6f8ccd;
+		padding: 2px 10px 2px 10px;
+	}
+	#navMenu li a[title="Vagas"]{
+		background: url(img/seta.jpg) 47px 9px no-repeat; }
+	#navMenu li a:hover[title="Vagas"],
+	#navMenu li a:focus[title="Vagas"],
+	#navMenu li a.current[title="Vagas"]{
+		background: url(img/setahover.jpg) 47px 9px no-repeat;}
+	#menu-empresa{
+		width: 305px;
+		border-radius: 10px;
+		border: 1px solid #6f8ccd;
+		background-color: #FFF;
+		position: absolute;
+		left: 40px;
+		top: 43px;
+		z-index: 99999;
+		padding: 12px 0 0 0;
+	}
+	#menu-empresa li{
+		background: url(img/ball.jpg) 10px 6px no-repeat;
+		padding: 0 0 7px 20px;}
+	#menu-empresa li a{
+		width: inherit;
+		height: inherit;
+		border: none;
+		font-size: 12px;
+		font-family: 'Verdana', sans-serif;
+		padding: 0;
+	}
+	#menu-empresa li a:hover, #menu-empresa li a:focus{ border: none; padding: 0;}
+	#box-video{
+		padding-bottom: 25px;
+		font-family: 'planet', sans-serif;
+		background: none;
+	}
+	#texto-video{
+		padding-bottom: 25px;
+		font-family: 'planet', sans-serif;
+		background: url(img/seta.gif) 130px 0 no-repeat;
+	}
+	.texto-video{
+		font-size: 1.917em;
+		color: #3b5998;
+		line-height: 30px;
+		padding: 35px 0 15px 0;
+		text-align: center;
+		background: url(img/div-video.gif) center bottom no-repeat;
+	}
+	.texto-video span{ font-size: 20px;}
+	.texto-estado{
+		font-size: 20px;
+		line-height: 25px;
+		padding: 10px 0 15px 0;
+		text-align: center;
+	}
+	#twitter{ padding-left: 15%;}
+	#footer .pdg-top{ padding: 15px 0 15px 0;}
+	#footer .hcc{
+		width: 91px;
+		height: 9px;
+		float: right;
+		margin: 30px 15px 0 0;
+		background-image: url(img/mraweb.png);
+	}
+	.adsense-post{ width: 100%; height: 280px;}
+	.cont-post{
+		width: 97%;
+		padding-right: 3%;
+		font-size: 18px;
+		font-family: 'planet', sans-serif;
+	}
+	#content #formCurriculo li,
+	#content #formCurriculo li label,
+	#content #formCurriculo li input,
+	#content #formCurriculo li textarea,
+	#content #formCurriculo li select{ width: 100%;}
+	.wp-pagenavi{ width: 91%;}
+	.ezAdsense{ float: none; margin-left: 120px;}
+	#cont-right .ezAdsense{ float: none; margin-left: -55px;}
+	.cont-post p{
+		width: 94%;
+		float: left;
+		padding: 3% 0 0 3%;
+	}
+	.tit-vagas{
+		width: 86%;
+		margin: 20px 0 0 10px;
+	}
+}
+
+/* CELULAR */
+@media(min-width: 320px) and (max-width: 642px) {
+	.ads-top1{ display: none;}
+	#midias-top .midias {
+		width: 232px;
+		margin-top: 0;
+		margin: 0 auto;
+		float: none;
+	}
+	#midias-top .midias li{ float: left; padding-bottom: 7px;}
+	header h1{
+		width: 302px;
+		height: 130px;
+		margin: 0 auto;
+		padding-top: 10px;
+	}
+	header h1 a{
+		width: 302px;
+		height: 126px;
+		background-image: url(img/emprego-pra-ontem.gif);
+	}
+	header .logo{
+		width: 302px;
+		height: 130px;
+		margin: 0 auto;
+		padding: 10px 0 0 0;
+	}
+	header .logo a{ width: 302px; height: 126px;}
+	#navMenu{
+		width: 100%;
+		padding-top: 3px;
+		background-color: #9c9c9c;
+	}
+	#navMenu li{ width: 100%;}
+	#navMenu li a{
+		width: 100%;
+		height: 27px;
+		font-family: 'planet', sans-serif;
+		font-size: 17px;
+		text-align: center;
+		color: #FFF;
+		border: none;
+		padding: 3px 0 0 0;
+		margin-bottom: 3px;
+		background-color: #B0B0B0;
+		text-transform: uppercase;
+	}
+	#navMenu li a:hover, #navMenu li a.ativo{
+		width: 100%;
+		height: 27px;
+		border: none;
+		border-radius: 0;
+		padding: 3px 0 0 0;
+		background: none;
+		background-position: none;
+		background-color: #B0B0B0;
+		color: #FFF;
+	}
+	#navMenu li a[title="Vagas"]{ display: none; background: none;}
+	#menu-empresa{ display: none;}
+	#texto-video{
+		padding-bottom: 25px;
+		font-family: 'planet', sans-serif;
+		background: none;
+	}
+	.texto-video{
+		font-size: 28px;
+		color: #3b5998;
+		line-height: 34px;
+		padding: 0 0 15px 0;
+		text-align: center;
+		background: url(img/div-video.gif) center bottom no-repeat;
+	}
+	.texto-video span{ font-size: 20px;}
+	.texto-estado{
+		font-size: 26px;
+		line-height: 31px;
+		padding: 10px 0 15px 0;
+		text-align: center;
+	}
+	#area-restrita a, #curriculo a{
+		width: 170px;
+		height: 53px;
+		margin: 0 auto;
+	}
+	#logo-footer img{
+		padding: 15px 0 10px 0;
+		margin: 0 auto;
+		display: block;
+	}
+	#footer .hcc{
+		width: 91px;
+		height: 9px;
+		float: none;
+		margin: 0 auto;
+		margin-top: 20px;
+		background-image: url(img/mraweb.png);
+	}
+	#content .size{ width: auto; font-size: 17px;}
+	#content .box-vagas{
+		width: 235px;
+		margin: 0 auto;
+		float: none;
+	}
+	#cont-right .search{ width: 266px; margin: 0 auto;}
+	.box-cat{ float: left; margin-left: 42px;}
+	.adsense-post{ width: 100%; height: 280px;}
+	.cont-post{
+		width: 97%;
+		padding-right: 3%;
+		font-size: 18px;
+		font-family: 'planet', sans-serif;
+	}
+	#content #formCurriculo li,
+	#content #formCurriculo li label,
+	#content #formCurriculo li input,
+	#content #formCurriculo li textarea,
+	#content #formCurriculo li select{ width: 100%;}
+	.wp-pagenavi{ width: 91%;}
+	.ezAdsense{ float: none; margin-left: 10px;}
+	#cont-right .ezAdsense{ float: none; margin-left: 30px;}
+	.cont-post p{
+		width: 94%;
+		float: left;
+		padding: 3% 0 0 3%;
+	}
+	.tit-vagas{ width: 86%; margin: 20px 0 0 10px;}
+	#cont-right .search{
+		float: left;
+		padding-bottom: 15px;
+		margin-left: 42px;
+	}
+	#wysija-3, #wysija-4, #wysija-5, #wysija-6, #wysija-7,
+	#wysija-8, #wysija-9, #wysija-10, #wysija-11{
+		float: left; margin: 25px 0 25px 42px;}
+	#face{ float: left; margin-left: 42px;}
+	.hcc{ display: none;}
+	.estados { width: 50%; }
+}
+
+/* FOOTER */
+footer{ width: 100%;}
+.wrapper{
+	width: 100%;
+	float: left;
+	padding-bottom: 25px;
+	background: #ebebeb url(img/bgroda.jpg) center top no-repeat;
+}
+#area-restrita a, #curriculo a{ width: 170px; height: 53px;}
+#area-restrita a:hover, #curriculo a:hover, #area-restrita a:focus, #curriculo a:focus{ opacity: 0.6;}
+#logo-footer img{ padding-top: 4px;}
+#area-restrita .bt-area{ background-image: url(img/btarea.gif);}
+#curriculo .bt-curriculo{ background-image: url(img/btgerador.gif);}
+#footer .pdg-top{ padding: 100px 0 15px 0;}
+#menu-footer{
+	width: 500px;
+	height: 25px;
+	float: right;
+	padding-top: 22px;
+	position: relative;
+}
+#menu-footer li{ float: left;}
+#menu-footer li a{
+	font-family: 'planet', sans-serif;
+	font-size: 15px;
+	padding: 3px 15px 3px 16px;
+}
+#menu-footer li a:hover,
+#menu-footer li a:focus,
+#menu-footer li a.ativo,
+#menu-footer li a.current{ color: #6f8ccd;}
+#menu-footer li a[title="Vagas"]{
+	padding-left: 18px;
+	background: url(img/bgvagas.jpg) 0 0 no-repeat; }
+#menu-footer .menu{
+	width: 460px;
+	position: absolute;
+	left: 22px;
+	top: 47px;
+	border-radius: 10px;
+	border: 1px solid #c3c3c3;
+	padding: 12px 0 15px 0;
+}
+#menu-footer li span{
+	width: 462px;
+	height: 12px;
+	position: absolute;
+	left: 22px;
+	top: 47px;
+	z-index: 999999;
+	background: url(img/bgtopmenu.jpg) 0 0 no-repeat;
+}
+#menu-footer .menu li{
+	width: 215px;
+	height: 21px;
+	padding-left: 10px;
+	margin-bottom: 8px; 
+	background: url(img/seta-footer.jpg) 7px 0 no-repeat;
+}
+#menu-footer .menu li:hover{ background-position: 7px -21px}
+#menu-footer .menu a{
+	color: #5a5a5a;
+	font-size: 11px;
+	font-family: 'Verdana', sans-serif;
+}
+.hcc{
+	width: 91px;
+	height: 9px;
+	float: right;
+	margin: 216px 15px 0 0;
+	background-image: url(img/mraweb.png);
+}
+#menu-erro ul li{
+	padding: 0 0 5px 10px;
+	background: url(img/ball.jpg) 0 4px no-repeat;
+}
+#menu-erro ul li a{ display: inline;}
+#menu-erro ul li a:hover, #menu-erro ul li a:focus{ text-decoration: underline;}
+
+/* Tablet Portrait (768px) */
+@media only screen and (max-width: 768px){
+	#Header { width: 100%; }
+	#Logo { width: 40%; }
+	#midias-top { width: 60%; }
+	#redes-sociais-top { width: 100%; }
+	#menu { width: 100%; }
+	#content { width: 100%; }
+	#box-video { width: 100%; padding-bottom: 1%; }
+	#texto-video { width: 35%; }
+	#video { width: 65%; }
+	#box10 { width: 25%; }
+	#box11 { width: 25%; }
+	#box12 { width: 25%; }
+	#box13 { width: 25%; }
+	#adsense { margin: 0 0 20px 0; }
+	#box14 { width: 25%; }
+	#box15 { width: 25%; }
+	#box16 { width: 25%; }
+	#box17 { width: 25%; }
+	#box18 { width: 25%; }
+	#box19 { width: 25%; }
+	#box20 { width: 25%; }
+	#box21 { width: 25%; }
+	.estados { width: 25%; }
+	#footer { width: 100%; }
+	#footer-left { width: 100%; }
+	#footer-right { width: 100%; }
+	#twitter { width: 100%; }
+	#logo-footer { width: 33.33333333333333%; }
+	#area-restrita { width: 33.33333333333333%; }
+	#curriculo { width: 33.33333333333333%; }
+	#midias-footer { width: 100%; display: none;}
+	#nav-footer { width: 100%; display: none;}
+	#cont-left { width: 67%; padding: 0 3% 0 0; }
+	#cont-right { width: 30%; }
+	#content #formCurriculo li,
+	#content #formCurriculo li label,
+	#content #formCurriculo li input,
+	#content #formCurriculo li textarea,
+	#content #formCurriculo li select{ width: 100%;}
+	#content #formCurriculo li label{ text-align: left; padding-bottom: 7px;}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 642px){
+	#midias-top { width: 100%; }
+	#Logo { width: 100%; }
+	#box-video { width: 100%; padding-bottom: 1%; }
+	#texto-video { width: 100%; }
+	#video { width: 100%; }
+	#cont-left { width: 94%; padding: 0 3% 0 3%; }
+	#cont-right { width: 100%; }
+	#content #formCurriculo li,
+	#content #formCurriculo li label,
+	#content #formCurriculo li input,
+	#content #formCurriculo li textarea,
+	#content #formCurriculo li select{ width: 100%;}
+	#content #formCurriculo li label{ text-align: left; padding-bottom: 7px;}
+	#box14 { width: 25%; }
+	#box15 { width: 25%; }
+	#box16 { width: 25%; }
+	#box17 { width: 25%; }
+	#box18 { width: 25%; }
+	#box19 { width: 25%; }
+	#box20 { width: 25%; }
+	#box21 { width: 25%; }
+	.estados { width: 50%; }
+}
+
+/* Phone Landscape (480px) */
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+	.ads-top1{ display: none;}
+	#Header { width: 100%; }
+	#Logo { width: 100%; }
+	#midias-top { width: 100%; }
+	#redes-sociais-top { width: 100%; margin-bottom: 15px; }
+	#menu { width: 100%; }
+	#content { width: 100%; }
+	#box-video { width: 100%; padding-bottom: 1%; }
+	#texto-video { width: 100%; }
+	#video { width: 100%; }
+	#box10 { width: 50%; }
+	#box11 { width: 50%; }
+	#box12 { width: 50%; }
+	#box13 { width: 50%; }
+	#adsense { width: 100%; margin: 0 0 20px 0;}
+	#box14 { width: 50%; }
+	#box15 { width: 50%; }
+	#box16 { width: 50%; }
+	#box17 { width: 50%; }
+	#box18 { width: 50%; }
+	#box19 { width: 50%; }
+	#box20 { width: 25%; }
+	#box21 { width: 25%; }
+	.estados { width: 50%; }
+	#footer { width: 100%; }
+	#footer-left { width: 100%; }
+	#footer-right { width: 100%; }
+	#twitter { width: 100%; }
+	#logo-footer { width: 100%; }
+	#area-restrita { width: 100%; }
+	#curriculo { width: 100%; }
+	#midias-footer { width: 100%; display: none; }
+	#nav-footer { width: 100%; display: none; }
+	#cont-left { width: 94%; padding: 0 3% 0 3%; }
+	#cont-right { width: 100%; }
+	#content #formCurriculo li,
+	#content #formCurriculo li label,
+	#content #formCurriculo li input,
+	#content #formCurriculo li textarea,
+	#content #formCurriculo li select{ width: 100%;}
+	#content #formCurriculo li label{ text-align: left; padding-bottom: 7px;}
+}
+
+/* Phone Portrait (320px) */
+@media only screen and (max-width: 320px) {
+	.ads-top1{ display: none;}
+	#Header { width: 100%; }
+	#Logo { width: 100%; }
+	#midias-top { width: 100%; }
+	#redes-sociais-top { width: 100%; margin-bottom: 15px; }
+	#menu { width: 100%; }
+	#content { width: 100%; }
+	#box-video { width: 100%; padding-bottom: 1%; }
+	#texto-video { width: 100%; }
+	#video { width: 100%; }
+	#box10 { width: 100%; }
+	#box11 { width: 100%; }
+	#box12 { width: 100%; }
+	#box13 { width: 100%; }
+	#adsense { width: 100%; margin: 0 0 20px 0;}
+	#box14 { width: 50%; }
+	#box15 { width: 50%; }
+	#box16 { width: 50%; }
+	#box17 { width: 50%; }
+	#box18 { width: 50%; }
+	#box19 { width: 50%; }
+	#box20 { width: 25%; }
+	#box21 { width: 25%; }
+	.estados { width: 50%; }
+	#footer { width: 100%; }
+	#footer-left { width: 100%; }
+	#footer-right { width: 100%; }
+	#twitter { width: 100%; }
+	#logo-footer { width: 100%; }
+	#area-restrita { width: 100%; }
+	#curriculo { width: 100%; }
+	#midias-footer { width: 100%; display: none; }
+	#nav-footer { width: 100%; display: none; }
+	#cont-left { width: 94%; padding: 0 3% 0 3%; }
+	#cont-right { width: 100%; }
+	#content #formCurriculo li,
+	#content #formCurriculo li label,
+	#content #formCurriculo li input,
+	#content #formCurriculo li textarea,
+	#content #formCurriculo li select{ width: 100%;}
+	#content #formCurriculo li label{ text-align: left; padding-bottom: 7px;}
+}
