@@ -325,6 +325,14 @@ header .logo a{ width: 302px; height: 126px;}
 /* VAGAS */
 #content .size{ font-size: 26px;}
 #content .box-vagas{ float: left;}
+#content .bt-voltar{
+	width: 79px;
+	height: 12px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-image: url(img/btvoltar.png); 
+}
 #content .box-vagas li{
 	width: 210px;
 	height: 223px;
@@ -590,6 +598,7 @@ aside ul{ width: 100%; float: left;}
 	padding-right: 3%;
 	font-size: 18px;
 	font-family: 'planet', sans-serif;
+	position: relative;
 }
 .cont-post p{
 	width: 60%;
