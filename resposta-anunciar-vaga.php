@@ -6,7 +6,7 @@ require_once('phpmailer/class.phpmailer.php');
   $phpmail->Host = "localhost"; // SMTP servers
   $phpmail->SMTPAuth = false; // Caso o servidor SMTP precise de autenticação
   $phpmail->Username = "empregop"; // SMTP username
-  $phpmail->Password = "#riodejaneiro#"; // SMTP password
+  $phpmail->Password = "C5PgbSA7xRl3"; // SMTP password
   $phpmail->Port = 587;
 
   $phpmail->IsHTML(true);
