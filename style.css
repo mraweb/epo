@@ -330,7 +330,7 @@ header .logo a{ width: 302px; height: 126px;}
 	height: 12px;
 	position: absolute;
 	right: 0;
-	top: 0;
+	top: -83px;
 	background-image: url(img/btvoltar.png); 
 }
 #content .box-vagas li{

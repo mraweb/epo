@@ -28,7 +28,7 @@ get_header(); ?>
         </div>
 
         <div class="cont-post">
-            <a href="javascript:history.back(-1);" title="Voltar" class="bt-voltar">Voltar</a>
+            <a href="javascript:history.back(-1);" title="Voltar" class="bt-voltar hidetxt">Voltar</a>
             
             <?php
             	the_post();
